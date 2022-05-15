@@ -7,7 +7,7 @@ os.system("cls")
 def input_check(msg,casting=int):
     while 1:
         try:
-            userInput =casting(input("숫자를 입력하세요: "))
+            userInput =casting(input(msg))
             return userInput
         except:
             print("숫자를 입력하세요")
